@@ -1,0 +1,49 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ejemploJDBC</groupId>
+  <artifactId>ejemploJDBC</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  
+  <dependencies>
+    <!-- Bloque de construcción básico para Spring que, junto con Spring Beans, 
+    proporciona funciones de inyección de dependencias e IoC.-->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-core</artifactId>
+  		<version>5.2.22.RELEASE</version>
+  	</dependency>
+  	<!-- Spring Beans proporciona el marco de configuración y la 
+  	funcionalidad básica para instanciar, configurar y ensamblar objetos java.-->
+  	<dependency>
+  		<groupId>org.springframework</groupId>
+  		<artifactId>spring-beans</artifactId>
+  		<version>5.2.20.RELEASE</version>
+  	</dependency>
+  	<!-- Clases de soporte para integrar bibliotecas comunes de terceros en un contexto de aplicación de Spring-->
+  	<dependency>
+  	  	<groupId>org.springframework</groupId>
+  		<artifactId>spring-context-support</artifactId>
+  		<version>5.2.22.RELEASE</version>  	
+  	</dependency>
+  	<!-- Capa de abstracción para gestionar el código de conexión a base de datos -->
+  	<dependency>
+  	  	<groupId>org.springframework</groupId>
+  		<artifactId>spring-jdbc</artifactId>
+  		<version>5.2.22.RELEASE</version>  	
+  	</dependency>
+  	<!-- Conector jdbc del sistema gestor de base de datos -->
+    <dependency>
+	    <groupId>org.postgresql</groupId>
+	    <artifactId>postgresql</artifactId>
+	    <version>42.5.0</version>
+	</dependency>
+
+  </dependencies>
+  
+  
+  
+  
+  
+  
+</project>
